@@ -251,3 +251,29 @@ Examples
 SELECT * FROM people WHERE email IS NOT NULL;
 SELECT * FROM addresses WHERE zip_code IS NOT NULL;
 ```
+
+## Dates
+
+### SQLite
+
+To get the current date use: DATE("now")
+To get the current time use: TIME("now")
+To get the current date time: DATETIME("NOW")
+
+### MS SQL
+
+To get the current date use: CONVERT(date, GETDATE())
+To get the current time use: CONVERT(time, GETDATE())
+To get the current date time: GETDATE()
+
+### MySQL
+
+To get the current date use: CURDATE()
+To get the current time use: CURTIME()
+To get the current date time: NOW()
+
+### Oracle and PostgreSQL
+
+To get the current date use: CURRENT_DATE
+To get the current time use: CURRENT_TIME
+To get the current date time: `CURRENT_TIMESTAMP
