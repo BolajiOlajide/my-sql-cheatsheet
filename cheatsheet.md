@@ -276,4 +276,4 @@ To get the current date time: NOW()
 
 To get the current date use: CURRENT_DATE
 To get the current time use: CURRENT_TIME
-To get the current date time: `CURRENT_TIMESTAMP
+To get the current date time: `CURRENT_TIMESTAMP`
